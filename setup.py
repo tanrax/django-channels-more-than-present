@@ -8,14 +8,15 @@ with open(os.path.join(os.path.dirname(__file__), "README.rst")) as readme:
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
-    name="django-channels-presence",
+    name="django-channels-more-than-present",
     version="2.0.0",
     packages=find_packages(),
     include_package_data=True,
     license="MIT License",
     description='Tracking socket presence in "rooms" using django-channels',
     long_description=README,
-    url="https://github.com/tanrax/django-channels-presence.git",
+    long_description_content_type="text/x-rst",
+    url="https://github.com/tanrax/django-channels-more-than-present.git",
     author="Charlie DeTar",
     author_email="cfd@media.mit.edu",
     maintainer="Andros Fenollosa (tanrax)",
