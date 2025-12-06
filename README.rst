@@ -7,6 +7,8 @@ A reusable Django app for implementing "presence" and "rooms" using
 
 **Modern fork compatible with Django 3.2+ and Python 3.8+.**
 
+- Docs: https://django-channels-presence.readthedocs.org
+
 Quick install::
 
     pip install django-channels-more-than-present
