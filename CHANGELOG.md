@@ -1,5 +1,10 @@
 # Changelog
 
+## [2.0.1] - 2025-12-06
+
+### Fixed
+- Restore documentation link in README
+
 ## [2.0.0] - 2025-12-06
 
 ### Changed
