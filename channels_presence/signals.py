@@ -1,5 +1,5 @@
 from django import dispatch
 
-presence_changed = dispatch.Signal(
-    providing_args=["room", "added", "removed", "bulk_change"]
-)
+# Signal sent when presence changes in a room
+# Arguments: room (Room instance), added (bool), removed (bool), bulk_change (bool)
+presence_changed = dispatch.Signal()

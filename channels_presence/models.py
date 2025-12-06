@@ -39,7 +39,12 @@ class Presence(models.Model):
         return self.channel_name
 
     class Meta:
-        unique_together = [("room", "channel_name")]
+        constraints = [
+            models.UniqueConstraint(
+                fields=["room", "channel_name"],
+                name="unique_presence_room_channel"
+            )
+        ]
 
 
 class RoomManager(models.Manager):
